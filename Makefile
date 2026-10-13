@@ -5,7 +5,7 @@ PYPI_TOKEN ?= ~/pypi.txt
 pip:
 	rm -rf build
 	mkdir -p build
-	cp styles.css pip/pyproject.toml build/
+	cp styles.css Paths.py pip/pyproject.toml build/
 	( cd build && python3 -m build --outdir . )
 
 install-pip:
