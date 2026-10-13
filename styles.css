@@ -121,9 +121,13 @@
 body {
 	background-color: var(--background);
 	color: var(--text);
-	font-family: 'Assistant';
+	font-family: 'Open Sans Hebrew';
 	line-height: 1.2;
 	padding: 1rem;
+}
+
+.scriptures {
+	font-family: 'SBL Hebrew';
 }
 
 nav {

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "reubeninstitute-css"
-version = "0.2"
+version = "0.4"
 description = "Common CSS and design system for Reuben Institute projects"
 readme = { text = "Shared stylesheets and design utilities for Reuben Institute web applications and viewers.", content-type = "text/plain" }
 requires-python = ">=3.8"
@@ -17,4 +17,4 @@ packages = ["reubeninstitute"]
 reubeninstitute = "."
 
 [tool.setuptools.package-data]
-reubeninstitute = ["styles.css"]
+reubeninstitute = ["styles.css", "Paths.py"]
