@@ -1,2 +1,3 @@
-# reubeninstitute-css
-Common CSS and design system for Reuben Institute projects
+# Brand
+
+Common brand assets (CSS, design system, logo) for Reuben Institute projects
